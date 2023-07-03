@@ -50,7 +50,6 @@
 				FBF363BA269BEE21E44D234E /* Pods-ProjectGitAndGithub.debug.xcconfig */,
 				36113B4AE80C6BBFA9261912 /* Pods-ProjectGitAndGithub.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -106,6 +105,7 @@
 				B483C52A2A4F003D004DD3AA /* Sources */,
 				B483C52B2A4F003D004DD3AA /* Frameworks */,
 				B483C52C2A4F003D004DD3AA /* Resources */,
+				2EA0820431C71C07DCE281F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +163,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2EA0820431C71C07DCE281F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectGitAndGithub/Pods-ProjectGitAndGithub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectGitAndGithub/Pods-ProjectGitAndGithub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectGitAndGithub/Pods-ProjectGitAndGithub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D16ED6224B39BF9170EDD2B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
